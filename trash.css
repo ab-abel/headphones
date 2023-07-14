@@ -1,0 +1,10 @@
+@media screen and (max-width:480px) {
+
+    .header-container {
+        display: none;
+    }
+
+    .header-logo img {
+        justify-content: center;
+    }
+}
