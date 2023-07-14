@@ -114,7 +114,7 @@ a:active {
 }
  
 .container-row {
-    max-width: 1000px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
     height: 800px;
@@ -237,3 +237,36 @@ a:active {
     padding: auto;
     font-weight: bold;
 }
+
+/* Section service */
+.services-row {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+.services-card {
+    display: flex;
+    padding-top: 5rem;
+    /* border:1px solid black; */
+    column-gap: 4rem;
+}
+
+.services-card i{
+    font-size:var(--font-size-xxl-large);
+    color: var(--color-button);
+}
+
+.services-card a{
+    color: var(--color-secondary);
+}
+
+.services-card a:hover{
+    color: var(--color-button);
+}
+
+
